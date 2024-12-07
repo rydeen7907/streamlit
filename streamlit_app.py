@@ -4,7 +4,7 @@ from PIL import Image
 st.title("ずんだもんのショーフロク")
 st.write("とりまテスト段階😊")
 
-image = Image.open(".image/kitakata.jpg")
+image = Image.open("./image/kitakata.jpg")
 
 st.subheader("プロフィール")
 st.text("1971年 山形県真室川町出身 高卒プロンプトエンジニア")
