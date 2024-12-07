@@ -1,7 +1,11 @@
 import streamlit as st
+from PIL import Image
 
 st.title("ずんだもんのショーフロク")
 st.write("とりまテスト段階😊")
+
+image = Image.open(".image/kitakata.jpg")
+
 st.subheader("プロフィール")
 st.text("1971年 山形県真室川町出身 高卒プロンプトエンジニア")
 st.text("＜ 取得資格 ＞")
