@@ -7,17 +7,20 @@ st.write("とりまテスト段階😊")
 
 st.subheader(" ＜ コメント ＞")
 st.text("AIとPythonを使ったコードをYoutubeで公開しています。")
-st.markdown("[Youtube：ずんだもんのショーフロク](https://www.youtube.com/@dalakkuma610)")
-st.markdown("[GitHub](https://github.com/rydeen7907)")
+st.markdown("[Youtube：ずんだもんのショーフロク](https://www.youtube.com/@dalakkuma610)\n",
+            "[GitHub](https://github.com/rydeen7907)")
 
 st.text("プライベート的なことは👉")
-st.markdown("[instagram：rydeen7907](https://www.instagram.com/rydeen7907/)")
-st.markdown("[X (旧twitter)：JQI3AA](https://x.com/jr4853)")
+st.markdown("[instagram：rydeen7907](https://www.instagram.com/rydeen7907/)\n",
+            "[X (旧twitter)：JQI3AA](https://x.com/jr4853)")
 
 
 
 image = Image.open("./image/kitakata.jpg")
 st.image(image)
+
+# サイドバーに画像を表示
+# st.sidebar.image("path_to_your_image.jpg", caption="Sidebar image")
 
 st.subheader("プロフィール")
 st.write("1971年 山形県真室川町出身 高卒プロンプトエンジニア")
@@ -29,6 +32,7 @@ st.text("Google AIエッセンシャルズ\n"
         "無線従事者技士(アマチュア無線3級) [ JQI3AA ]")
 
 
+st.write("リラックマ、ラーメン🍜を食べる…")
 # 動画ファイルのパス
 video_file = open("./image/rirakkuma_ramen_1.mp4", "rb")
 # 動画を再生する
