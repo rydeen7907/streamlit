@@ -27,3 +27,9 @@ st.text("Google AIエッセンシャルズ\n"
         "日本化粧品検定協会 化粧品検定3級\n"
         "8t限定 中型自動車運転免許\n"
         "無線従事者技士(アマチュア無線3級) [ JQI3AA ]")
+
+# 動画ファイルのパス
+video_file = open("./image/rirakkuma_ramen_1.mp4", "rb")
+# 動画を再生する
+video_bytes = video_file.read()
+st.video(video_bytes)
