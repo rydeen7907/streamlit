@@ -4,11 +4,11 @@ import av
 st.title("ずんだもんのショーフロク")
 st.write("まだまだ開発中")
 
-
 # 動画ファイルのパス
-video_file = ("./image/rirakkuma_ramen_1.mp4")
+video_file = open("./image/rirakkuma_ramen_1.mp4", "rb")
 # 動画を再生する
-st.video(video_file)
+video_bytes = video_file.read()
+st.video(video_bytes)
 
 
 # または、動画をストリーミングする
