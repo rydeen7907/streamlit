@@ -6,9 +6,9 @@ st.write("まだまだ開発中")
 
 
 # 動画ファイルのパス
-video_file = "./image/rirakkuma_ramen_1.mp4"
+video_file = ("./image/rirakkuma_ramen_1.mp4")
 # 動画を再生する
-st.video(video_file, format="video/mp4")
+st.video(video_file)
 
 
 # または、動画をストリーミングする
