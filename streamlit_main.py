@@ -17,6 +17,9 @@ st.markdown("[X (旧twitter)：JQI3AA](https://x.com/jr4853/)")
 image = Image.open("./image/kitakata.jpg")
 st.image(image)
 
+# サイドバーの名前を変更
+st.sidebar.title("メインなのだ")
+
 # サイドバーに画像を表示
 # st.sidebar.image("path_to_your_image.jpg", caption="Sidebar image")
 
