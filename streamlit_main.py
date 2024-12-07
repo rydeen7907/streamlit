@@ -7,7 +7,7 @@ st.write("とりまテスト段階😊")
 
 st.subheader(" ＜ コメント ＞")
 st.text("AIとPythonを使ったコードをYoutubeで公開しています。")
-st.markdown("[Youtube：ずんだもんのショーフロク](https://www.youtube.com/@dalakkuma610)\n"
+st.markdown("[Youtube：ずんだもんのショーフロク](https://www.youtube.com/@dalakkuma610)\n",
             "[GitHub](https://github.com/rydeen7907")
 
 st.text("プライベート的なことは👉")
