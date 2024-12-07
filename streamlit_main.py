@@ -12,8 +12,7 @@ st.text("プライベート的なことは👉")
 st.markdown("[instagram：rydeen7907](https://www.instagram.com/rydeen7907/)")
 st.markdown("([X (旧twitter)：JQI3AA](https://x.com/jr4853/)")
 
-
-
+# 画像を貼り付ける
 image = Image.open("./image/kitakata.jpg")
 st.image(image)
 
@@ -30,7 +29,8 @@ st.text("Google AIエッセンシャルズ\n"
         "無線従事者技士(アマチュア無線3級) [ JQI3AA ]")
 
 
-st.write("リラックマ、ラーメン🍜を食べる…")
+# 動画再生
+st.text("リラックマ、ラーメン🍜を食べる…")
 # 動画ファイルのパス
 video_file = open("./image/rirakkuma_ramen_1.mp4", "rb")
 # 動画を再生する
