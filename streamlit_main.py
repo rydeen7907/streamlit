@@ -15,7 +15,7 @@ st.image(image)
 st.subheader("プロフィール")
 st.write("1971年 山形県真室川町出身 高卒プロンプトエンジニア")
 st.text("＜ 取得資格 ＞")
-st.write("Google AIエッセンシャルズ\n"
+st.text("Google AIエッセンシャルズ\n"
         "Google データアナリティクスプロフェッショナル認定\n"
         "日本化粧品検定協会 化粧品検定3級\n"
         "8t限定 中型自動車運転免許\n"
