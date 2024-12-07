@@ -6,11 +6,11 @@ st.write("とりまテスト段階😊")
 
 st.subheader(" ＜ コメント ＞")
 st.text("AIとPythonを使ったコードをYoutubeで公開しています。")
-st.markdown("[Youtube：ずんだもんのショーフロク](https://www.youtube.com/@dalakkuma610)")
-st.markdown("[GitHub](https://github.com/rydeen7907)")
+st.markdown("[Youtube：ずんだもんのショーフロク](https://www.youtube.com/@dalakkuma610/)")
+st.markdown("[GitHub](https://github.com/rydeen7907/)")
 st.text("プライベート的なことは👉")
-st.markdown("[instagram：rydeen7907](https://www.instagram.com/rydeen7907)")
-st.markdown("([X (旧twitter)：JQI3AA](https://x.com/jr4853)")
+st.markdown("[instagram：rydeen7907](https://www.instagram.com/rydeen7907/)")
+st.markdown("([X (旧twitter)：JQI3AA](https://x.com/jr4853/)")
 
 
 
