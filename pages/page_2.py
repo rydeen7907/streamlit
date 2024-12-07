@@ -6,6 +6,7 @@ st.write("まだまだ開発中")
 
 
 
+
 # または、動画をストリーミングする
 # with open(video_file, 'rb') as f:
 #   video_bytes = f.read()

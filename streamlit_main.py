@@ -28,6 +28,7 @@ st.text("Google AIエッセンシャルズ\n"
         "8t限定 中型自動車運転免許\n"
         "無線従事者技士(アマチュア無線3級) [ JQI3AA ]")
 
+
 # 動画ファイルのパス
 video_file = open("./image/rirakkuma_ramen_1.mp4", "rb")
 # 動画を再生する
